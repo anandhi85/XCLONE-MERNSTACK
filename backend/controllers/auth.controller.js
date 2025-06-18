@@ -1,4 +1,4 @@
-export const signup =  (req, res)=>{
+export const signup = async  (req, res)=>{
    try{
     const {username, fullname, email, password} = req.body;
    }catch(error){
