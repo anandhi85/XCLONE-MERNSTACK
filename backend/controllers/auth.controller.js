@@ -3,7 +3,7 @@ export const signup =  (req, res)=>{
     const {username, fullname, email, password} = req.body;
    }catch(error){
     console.log(`Error in signup controller: ${error}`)
-res.status(500).json({error: "Internal server Error"})   
+        res.status(500).json({error: "Internal server Error"})   
 }
 }
 export const login =  (req, res)=>{
